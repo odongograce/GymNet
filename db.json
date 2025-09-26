@@ -1,0 +1,245 @@
+{
+  "workouts": [
+    {
+      "id": "1",
+      "gender": "Male",
+      "equipment": "Yes",
+      "goal": "Gain Muscle",
+      "mood": "Energetic",
+      "exercises": [
+        "Bench Press - 3x8",
+        "Deadlifts - 3x6",
+        "Overhead Press - 3x10",
+        "Barbell Squats - 3x8"
+      ]
+    },
+    {
+      "id": "2",
+      "gender": "Male",
+      "equipment": "No",
+      "goal": "Gain Muscle",
+      "mood": "Energetic",
+      "exercises": [
+        "Push-ups - 4x12",
+        "Burpees - 3x15",
+        "Bodyweight Squats - 4x15",
+        "Plank Hold - 3x1 min"
+      ]
+    },
+    {
+      "id": "3",
+      "gender": "Male",
+      "equipment": "No",
+      "goal": "Gain Muscle",
+      "mood": "Tired",
+      "exercises": [
+        "Wall Sit - 2x30s",
+        "Knee Push-ups - 2x10",
+        "Glute Bridges - 2x12"
+      ]
+    },
+    {
+      "id": "4",
+      "gender": "Male",
+      "equipment": "No",
+      "goal": "Gain Muscle",
+      "mood": "Stressed",
+      "exercises": [
+        "Yoga Poses (Warrior, Tree)",
+        "Breathing Exercise - 5 min",
+        "Cat-Cow Stretch - 2 min"
+      ]
+    },
+    {
+      "id": "5",
+      "gender": "Male",
+      "equipment": "No",
+      "goal": "Gain Muscle",
+      "mood": "Physically Challenged",
+      "exercises": [
+        "Seated Dumbbell Press - 3x10",
+        "Resistance Band Rows - 3x12",
+        "Wheelchair Push-ups - 3x8"
+      ]
+    },
+    {
+      "id": "6",
+      "gender": "Male",
+      "equipment": "Yes",
+      "goal": "Weight Loss",
+      "mood": "Energetic",
+      "exercises": [
+        "Jump Rope - 3 min",
+        "Kettlebell Swings - 3x15",
+        "Mountain Climbers - 3x20",
+        "Walking Lunges - 3x12"
+      ]
+    },
+    {
+      "id": "7",
+      "gender": "Male",
+      "equipment": "No",
+      "goal": "Weight Loss",
+      "mood": "Tired",
+      "exercises": [
+        "Walking in Place - 5 min",
+        "Bodyweight Squats - 2x12",
+        "Seated Twist Stretch - 2 min"
+      ]
+    },
+    {
+      "id": "8",
+      "gender": "Male",
+      "equipment": "No",
+      "goal": "Weight Loss",
+      "mood": "Stressed",
+      "exercises": [
+        "Deep Breathing - 5 min",
+        "Child's Pose - 2 min",
+        "Gentle Yoga Flow - 5 min"
+      ]
+    },
+    {
+      "id": "9",
+      "gender": "Male",
+      "equipment": "No",
+      "goal": "Weight Loss",
+      "mood": "Physically Challenged",
+      "exercises": [
+        "Seated Leg Lifts - 3x12",
+        "Chair Dips - 3x8",
+        "Resistance Band Curls - 3x10"
+      ]
+    },
+    {
+      "id": "10",
+      "gender": "Female",
+      "equipment": "Yes",
+      "goal": "Gain Muscle",
+      "mood": "Energetic",
+      "exercises": [
+        "Dumbbell Squats - 3x10",
+        "Lat Pulldown - 3x12",
+        "Push-ups - 3x10",
+        "Glute Bridges - 3x12"
+      ]
+    },
+    {
+      "id": "11",
+      "gender": "Female",
+      "equipment": "No",
+      "goal": "Gain Muscle",
+      "mood": "Tired",
+      "exercises": [
+        "Wall Sit - 2x30s",
+        "Modified Push-ups - 2x8",
+        "Hip Raises - 2x12"
+      ]
+    },
+    {
+      "id": "12",
+      "gender": "Female",
+      "equipment": "No",
+      "goal": "Gain Muscle",
+      "mood": "Stressed",
+      "exercises": [
+        "Seated Side Stretch - 2 min",
+        "Yoga Flow - 5 min",
+        "Breathing Exercise - 3 min"
+      ]
+    },
+    {
+      "id": "13",
+      "gender": "Female",
+      "equipment": "No",
+      "goal": "Gain Muscle",
+      "mood": "Physically Challenged",
+      "exercises": [
+        "Seated Dumbbell Curls - 3x12",
+        "Resistance Band Rows - 3x12",
+        "Chair Squats (assisted) - 3x8"
+      ]
+    },
+    {
+      "id": "14",
+      "gender": "Female",
+      "equipment": "Yes",
+      "goal": "Weight Loss",
+      "mood": "Energetic",
+      "exercises": [
+        "Cycling - 10 min",
+        "Jump Rope - 2 min",
+        "Walking Lunges - 3x12",
+        "Mountain Climbers - 3x20"
+      ]
+    },
+    {
+      "id": "15",
+      "gender": "Female",
+      "equipment": "No",
+      "goal": "Weight Loss",
+      "mood": "Tired",
+      "exercises": [
+        "Walking in Place - 5 min",
+        "Bodyweight Squats - 2x12",
+        "Seated Twist - 2 min"
+      ]
+    },
+    {
+      "id": "16",
+      "gender": "Female",
+      "equipment": "No",
+      "goal": "Weight Loss",
+      "mood": "Stressed",
+      "exercises": [
+        "Breathing Exercise - 5 min",
+        "Child's Pose - 2 min",
+        "Gentle Yoga Stretch - 5 min"
+      ]
+    },
+    {
+      "id": "17",
+      "gender": "Female",
+      "equipment": "No",
+      "goal": "Weight Loss",
+      "mood": "Physically Challenged",
+      "exercises": [
+        "Seated Leg Lifts - 3x12",
+        "Chair Dips - 3x8",
+        "Resistance Band Curls - 3x10"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Grace Odongo",
+      "email": "graceakinyi024@gmail.com",
+      "message": "I'd like to know more about strength training classes."
+    },
+    {
+      "id": "2",
+      "name": "Michael Kinyua",
+      "email": "michael@example.com",
+      "message": "Do you offer personalized workout plans?"
+    },
+    {
+      "id": "d001",
+      "fullname": "Isaiah Oduor",
+      "email": "isaiahoduor@gmail.com",
+      "message": "Can I get some guidance?"
+    },
+    {
+      "id": "e6da",
+      "fullname": "Grace  Dash",
+      "email": "gracedash3@gmail.com",
+      "message": "I need another plan"
+    },
+    {
+      "id": "3977",
+      "fullname": "Sharon Irish",
+      "email": "irishsharon@gmail.com",
+      "message": "I need a diet plan"
+    }
+  ]
+}

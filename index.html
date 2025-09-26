@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymNet</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="main">
+        
+        <header>
+            <h1>GymNet</h1>
+            <nav>
+                <a href="#aboutus">About Us</a>
+                <a href="#workout">Workout Plan</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact Us</a>
+                
+            </nav>
+        </header>
+        <div class="all-content">
+            <section id="design" class="design">
+                <p><em>Your body can stand almost anything. It's your mind you have to convince.</em></p>
+            </section>
+
+            <section id="aboutus" class="about">
+                <h2>About Us</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            At GymNet, we believe that fitness is not just about building
+                            strength—it's about building confidence, resilience, and a healthier
+                            lifestyle.
+                            Our mission is to provide a supportive, motivating, and personalized
+                            environment for every individual, whether you're just
+                            starting your fitness journey or are an experienced athlete.
+                        </p>
+                        <p>
+                            We offer a variety of services, including aerobics, yoga, and strength
+                            training classes, designed to help you achieve your goals. With GymNet,
+                            you can create custom workout plans tailored to
+                            your body, mood, and fitness objectives, ensuring every workout is
+                            effective and enjoyable.
+                        </p>
+                        <p>Our philosophy is simple: Your body can stand almost anything—it's your mind you have to
+                            convince. At GymNet, we provide the tools, guidance, and support to help you become the best
+                            version of yourself.
+                        </p>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/david-marioni-F_lns58a_ec-unsplash.jpg" alt="Gym workout" />
+                    </div>
+                </div>
+            </section>
+            <section id="workout" class="workout">
+                <h2>Create Your Workout Plan</h2>
+                <div class="form-container">
+                    <form action="" id="workout-form" method="get">
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+                            <select name="gender" id="gender">
+                                <option value="male" selected>Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                            <label for="equipment">Do you have gym equipment?</label>
+                            <select name="equipment" id="equipment">
+                                <option value="yes" selected>Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                            <label for="goal">Fitness Goal</label>
+                            <select name="goal" id="goal" aria-describedby="goal-help">
+                                <option value="Gain Muscle" selected>Gain Muscle</option>
+                                <option value="Weight Loss">Weight Loss</option>
+                            </select>
+                            <label for="mood">Mood and Physical State</label>
+                            <select name="mood" id="mood" aria-describedby="mood-help">
+                                <option value="Energetic" selected>Energetic</option>
+                                <option value="Tired">Tired</option>
+                                <option value="Stressed">Stressed</option>
+                                <option value="Physically Challenged">Physically Challenged</option>
+                            </select>
+                            <input type="submit" value="Get Your Workout">
+                        </div>
+                    </form>
+                    <div id="results">
+                        <h2>Your Workout Plan</h2>
+                       <div  id="workout-description"></div></div>
+                    </div>
+                </div>
+            </section>
+             <section id="services" class="services">
+                <h2>Our Services</h2>
+                <div class="class-cards">
+                    <div class="card">
+                        <img src="images/timothy-yiadom-Tf-Z6AEWnkY-unsplash.jpg" alt="Beginner Yoga">
+                        <h3>Yoga</h3>
+                        <p>Discover balance and flexibility through calming poses, mindful breathing, 
+                            and gentle stretches that nurture both body and mind.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="images/ambitious-studio-rick-barrett-WH-RyVhNEes-unsplash.jpg" alt="Strength Training">
+                        <h3>Strength Training</h3>
+                        <p>Build muscle, increase endurance, and boost confidence with targeted exercises
+                             designed to make you stronger every day.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="images/Motivational Workout Wallpaper for a Dynamic….jpeg" alt="Aerobics">
+                        <h3>Aerobics</h3>
+                        <p>Stay energized and improve cardiovascular health with fun, rhythmic movements 
+                            that keep your body active and your mind refreshed.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="images/timothy-yiadom-pNiUlBbXfnQ-unsplash.jpg" alt="Meditation">
+                        <h3>Meditation</h3>
+                        <p>Find peace and clarity by calming your thoughts, reducing stress, 
+                            and enhancing focus through guided meditation sessions.</p>
+                    </div>
+                  
+                          
+                    
+                </div>
+            </section>
+
+            <section id="contact" class="contact">
+                <h2>Contact Us</h2>
+                <div class="form-container">
+                    <form action="" id="contact-form" method="get">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter our email">
+
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Enter your message"></textarea>
+
+                            <input type="submit" value="Send Message">
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+
+
+            <footer>
+                &copy; 2025 GymNet. All Rights Reserved.
+            </footer>
+        </div>
+
+       
+        <script src="index.js"> </script>
+</body>
+
+</html>
